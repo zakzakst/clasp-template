@@ -11,17 +11,17 @@ await esbuild.build({
   },
   entryPoints: ["src/index.ts"],
   format: "cjs",
-  outfile: "dist/index.js",
+  outdir: "dist",
   platform: "browser",
   target: "es2019",
   treeShaking: false,
-  // minifySyntax: true,
   minifyWhitespace: true,
 });
 
-try {
-  await fs.cp("src/html", "dist", { recursive: true });
-  console.log("HTML files copied successfully to dist/html");
-} catch (error) {
-  console.error("Error copying HTML files:", error);
-}
+// TODO: htmlファイルのみコピーする。gitkeepがあるとき、distに入ってしまう
+// try {
+//   await fs.cp("src/html", "dist", { recursive: true });
+//   console.log("HTML files copied successfully to dist/html");
+// } catch (error) {
+//   console.error("Error copying HTML files:", error);
+// }
