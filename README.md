@@ -1,10 +1,18 @@
-# clasp-practice
+# clasp-template
 
 ## TODO
 
 - もうちょっとbuild工夫したい
   - jsファイル複数
   - htmlファイルはコピーでなくejsとかxhtmlとか使う
+- Advanced Google Servicesの利用試したい
+
+## GAS以外の機能
+
+- 「@」を入力してスマートチップの挿入などできるので覚えておく
+- 挿入 > 構成要素 > 会議メモ で参加者のチップをいい感じにリストアップしてくれる
+- カスタムビルディングブロック使ってみる
+  - https://support.google.com/docs/answer/13584759
 
 ## コマンドメモ
 
@@ -19,3 +27,6 @@
 - esbuild-gas-plugin試す
   - https://zenn.dev/funteractiveinc/articles/776b5812833475
   - ⇒ あまり変わらなかったので利用しない
+- eventの主催者・参加者取得
+  - ⇒ エラー出るので、一旦あきらめる
+  - Advanced Google Servicesを利用すればできそうではあった
