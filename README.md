@@ -7,6 +7,20 @@
   - htmlファイルはコピーでなくejsとかxhtmlとか使う
 - Advanced Google Servicesの利用試したい
 
+## アイデア
+
+- CSVを自動取り込み
+- 毎朝レポートを自動更新
+- データ入力チェック
+- 毎日のサマリーメール配信
+- フォーム内容をPDF化
+- GitHub Issue一覧取得
+- メール送信
+- HTTPリクエスト（API連携）
+  - UrlFetchApp.fetch
+- PropertiesService
+  - 行データ表示の時の選択行の保持に利用できたかも
+
 ## GAS以外の機能
 
 - 「@」を入力してスマートチップの挿入などできるので覚えておく
