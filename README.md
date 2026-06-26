@@ -6,6 +6,7 @@
   - jsファイル複数
   - htmlファイルはコピーでなくejsとかxhtmlとか使う
 - Advanced Google Servicesの利用試したい
+- HtmlService.createHtmlOutputFromFileでテンプレート的な利用方法練習する
 
 ## アイデア
 
