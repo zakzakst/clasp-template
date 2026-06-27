@@ -6,6 +6,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css"
     />
+    <?!= include('styles'); ?>
   </head>
 
   <body>
@@ -22,19 +23,6 @@
         </div>
       </div>
     </form>
-
-    <script>
-      // 実行
-      const form = document.getElementById("form");
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const formData = new FormData(form);
-        // google.script.run
-        //   .withSuccessHandler(() => {
-        //     google.script.host.close();
-        //   })
-        //   .sampleScript(formData.get("inputName"));
-      });
-    </script>
+    <?!= include('script'); ?>
   </body>
 </html>
