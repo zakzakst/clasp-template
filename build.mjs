@@ -8,6 +8,7 @@ await esbuild.build({
   define: {
     // NOTE: `JSON.stringify`は必要 ※利用しないと文字列の前後にダブルコートがつかない
     "process.env.SHEET_ID": JSON.stringify(process.env.SHEET_ID ?? ""),
+    "process.env.MY_ADDRESS": JSON.stringify(process.env.MY_ADDRESS ?? ""),
   },
   entryPoints: ["src/index.ts"],
   format: "cjs",
