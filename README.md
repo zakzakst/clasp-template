@@ -4,9 +4,7 @@
 
 - もうちょっとbuild工夫したい
   - jsファイル複数
-  - htmlファイルはコピーでなくejsとかxhtmlとか使う
 - Advanced Google Servicesの利用試したい
-- HtmlService.createHtmlOutputFromFileでテンプレート的な利用方法練習する
 
 ## アイデア
 
@@ -41,3 +39,5 @@
 - eventの主催者・参加者取得
   - ⇒ エラー出るので、一旦あきらめる
   - Advanced Google Servicesを利用すればできそうではあった
+- htmlファイルはコピーでなくejsとかxhtmlとか使う
+  - ⇒ GASのテンプレート機能で対応
