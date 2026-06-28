@@ -2,8 +2,6 @@
 
 ## TODO
 
-- もうちょっとbuild工夫したい
-  - jsファイル複数
 - Advanced Google Servicesの利用試したい
 
 ## アイデア
@@ -41,3 +39,6 @@
   - Advanced Google Servicesを利用すればできそうではあった
 - htmlファイルはコピーでなくejsとかxhtmlとか使う
   - ⇒ GASのテンプレート機能で対応
+- clasp pushの際にmanifest overwriteを自動でyesにできないか？
+  - clasp push -fだと出来るっぽい。ただ、-fは怖いので自動化はあきらめる
+  - https://qiita.com/hosaka_/items/d7ada9556ddbb7c5d988
